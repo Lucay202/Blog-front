@@ -1,6 +1,6 @@
 // scripts/blog.js
 // Replace WORKER_BASE with your worker URL (e.g. 'https://my-worker.workers.dev')
-const WORKER_BASE = 'https://https://blog.lucay202.workers.dev/';
+const WORKER_BASE = 'https://blog.lucay202.workers.dev';
 
 function getSlugFromPath() {
   const parts = location.pathname.split('/').filter(Boolean);
