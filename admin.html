@@ -1,0 +1,37 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>Admin — Blog</title>
+  <link rel="stylesheet" href="/style.css">
+</head>
+<body>
+  <header>
+    <h1>Admin Panel</h1>
+    <p class="muted">Create, edit, delete posts.</p>
+  </header>
+
+  <main>
+    <section id="admin-controls">
+      <h2>Create New Post</h2>
+      <form id="create-form">
+        <label>Title<br><input name="title" required /></label><br>
+        <label>Slug (optional)<br><input name="slug" /></label><br>
+        <label>Excerpt<br><input name="excerpt" /></label><br>
+        <label>Content (Markdown/HTML)<br><textarea name="content" rows="8" required></textarea></label><br>
+        <button type="submit">Create</button>
+      </form>
+
+      <hr>
+
+      <h2>Existing Posts</h2>
+      <div id="posts-list">
+        <p class="loading">Loading…</p>
+      </div>
+    </section>
+  </main>
+
+  <script type="module" src="/scripts/admin.js"></script>
+</body>
+</html>
