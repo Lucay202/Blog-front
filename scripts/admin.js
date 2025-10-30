@@ -1,7 +1,7 @@
 // scripts/admin.js
 // This script expects the admin HTML to be served by the Worker, and the password stored in sessionStorage under ADMIN_PASS.
 // Replace WORKER_BASE with your worker URL (e.g. 'https://my-worker.workers.dev')
-const WORKER_BASE = 'https://WORKER_BASE_REPLACE_ME';
+const WORKER_BASE = 'https://https://blog.lucay202.workers.dev/';
 
 const ADMIN_PASS = sessionStorage.getItem('ADMIN_PASS') || null;
 
