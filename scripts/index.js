@@ -1,6 +1,6 @@
 // scripts/index.js
 // Replace WORKER_BASE with your worker URL (e.g. 'https://my-worker.workers.dev')
-const WORKER_BASE = 'https://WORKER_BASE_REPLACE_ME';
+const WORKER_BASE = 'https://https://blog.lucay202.workers.dev/';
 
 async function fetchList() {
   const res = await fetch(`${WORKER_BASE}/api/blog/list`);
